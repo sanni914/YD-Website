@@ -1,0 +1,208 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    display: block;
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-pics {
+    display: none;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    color: white;
+    padding: 0 1rem;
+    transition: opacity 0.5s;
+
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+.nav-link-apple {
+    width: 1.6rem;
+    background: url(family.jpg) center no-repeat;
+    height: 4.4rem;
+}
+
+.nav-link-search {
+    width: 1.6rem;
+    background: url(search.jp) center no-repeat;
+    height: 4.4rem;
+}
+
+.nav-link-bag {
+    width: 1.6rem;
+    background: url(searc.jpg) center no-repeat;
+    height: 4.4rem;
+}
+
+.wall1 {
+    background: url(bh.jpg);
+    width: 100%;
+    margin-top: 4.4rem;
+}
+
+.hero {
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6 solid white;
+    border-bottom: 0.6 solid white;
+}
+
+.wall1 {
+    border-top: none;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading {
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -0.005rem;
+
+}
+
+.title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+}
+
+.title-price {
+    font-size: 1.7rem;
+    color: gold;
+    margin-top: 0.68rem;
+}
+
+
+.cta {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link {
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+
+.cta-link:nth-child(2) {
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover {
+    border-bottom: 2ps solid #66bbff;
+}
+
+.wall2 {
+    background: url(paperpic.jpg);
+}
+
+.title-dark {
+    color: white;
+}
+
+.cta-link-darker {
+    color: #0070c9;
+
+}
+
+.cta-link:hover {
+    border-bottom-color: #0070c9;
+}
+
+
+.hero {
+    height: 69.2rem;
+    background-size: 72.3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6 solid black;
+    border-bottom: 0.6 solid black;
+}
+
+.wall3 {
+    background: url(LAST.jpg);
+    border-top: none;
+    margin-bottom: 10px;
+}
+
+.title-heading {
+    height: 7.8rem;
+
+}
+
+.hero {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6 solid black;
+    border-bottom: 0.6 solid white;
+}
+
+.wall4{
+    background: url(savethe.jpg);
+    
+}
+
+.hero {
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6 solid black;
+    border-bottom: 0.6 solid white;
+}
+
+.wall5{
+    background: url(logol.jpg);
+    height: 25.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
